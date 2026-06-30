@@ -14,5 +14,7 @@
   { "text": "Neovim", "color": "#57A143", "category": "Tools" },
   { "text": "Hyprland", "color": "#58B9FF", "category": "Tools" },
   { "text": "Waybar", "color": "#A6E3A1", "category": "Tools" },
-  { "text": "Arch Linux", "color": "#1793D1", "category": "Cloud & DevOps" }
+  { "text": "Arch Linux", "color": "#1793D1", "category": "Cloud & DevOps" },
+  { "text": "HTML/CSS", "color": "#E34F26", "category": "Design" },
+  { "text": "Responsive Design", "color": "#61DAFB", "category": "Design" }
 ]

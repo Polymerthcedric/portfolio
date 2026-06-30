@@ -42,5 +42,16 @@
     "tags": ["Linux", "Neovim", "Git"],
     "code": "https://github.com/Polymerthcedric/dotfiles",
     "demo": ""
+  },
+  "5": {
+    "title": "SawaPro Landing Page",
+    "subtitle": "Premium business landing page — HTML, Tailwind CSS, Vanilla JS",
+    "problem": "Small and medium businesses in Nairobi lack affordable, professional web presence. Most resort to generic templates or expensive agencies. There was a need for a zero-dependency, high-quality landing page that runs instantly without a build step.",
+    "approach": "Designed and built a single-page HTML site using Tailwind CSS via CDN and vanilla JavaScript. Implemented scroll-triggered Intersection Observer animations, a responsive mobile hamburger menu, a 6-card services grid, image gallery with hover overlays, and a contact section with Google Maps embed. Zero build tools, zero frameworks — just semantic HTML, utility CSS, and native JS.",
+    "result": "A fully responsive, production-ready business landing page that loads instantly, works on any device, and can be deployed by opening a single file in a browser.",
+    "metrics": "Tailwind CSS \u00b7 Vanilla JS \u00b7 Intersection Observer \u00b7 Responsive design \u00b7 Zero dependencies",
+    "tags": ["HTML/CSS", "JavaScript", "Tailwind CSS", "Responsive Design"],
+    "code": "https://github.com/fidelcedric/sawapro-landing-page",
+    "demo": ""
   }
 }
