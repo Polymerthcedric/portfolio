@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e2e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #45475a;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #585b70;
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-cSurface/60 backdrop-blur-md border border-white/5 rounded-2xl shadow-lg;
+  }
+
+  .glass-card-hover {
+    @apply glass-card hover:border-cAccent/30 hover:shadow-cAccent/5 hover:shadow-xl transition-all duration-300;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-cAccent to-cAccentHover bg-clip-text text-transparent;
+  }
+
+  .section-heading {
+    @apply text-3xl sm:text-4xl font-bold text-cH1 mb-8;
+  }
+
+  .tag-pill {
+    @apply px-3 py-1 rounded-full text-xs font-medium transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-cAccent text-white font-medium 
+           hover:bg-cAccentHover transition-all duration-200 shadow-lg shadow-cAccent/20;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-cSurface 
+           text-cBody border border-cBorder font-medium
+           hover:border-cAccent/30 hover:text-cAccent transition-all duration-200;
+  }
+
+  .link-hover {
+    @apply text-cLink hover:text-cLinkVisited transition-colors duration-200;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

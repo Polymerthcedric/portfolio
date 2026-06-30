@@ -1,0 +1,18 @@
+[
+  { "text": "AWS", "color": "#FF9900", "category": "Cloud & DevOps" },
+  { "text": "Docker", "color": "#2496ED", "category": "Cloud & DevOps" },
+  { "text": "Linux", "color": "#FCC624", "category": "Cloud & DevOps" },
+  { "text": "Shell Scripting", "color": "#4EAA25", "category": "Cloud & DevOps" },
+  { "text": "Python", "color": "#3776AB", "category": "Languages" },
+  { "text": "Node.js", "color": "#5FA04E", "category": "Languages" },
+  { "text": "React", "color": "#61DAFB", "category": "Languages" },
+  { "text": "Tailwind CSS", "color": "#06B6D4", "category": "Design" },
+  { "text": "JavaScript", "color": "#F7DF1E", "category": "Languages" },
+  { "text": "Android", "color": "#34A853", "category": "Mobile" },
+  { "text": "UI/UX Design", "color": "#FF6B6B", "category": "Design" },
+  { "text": "Git", "color": "#F05032", "category": "Tools" },
+  { "text": "Neovim", "color": "#57A143", "category": "Tools" },
+  { "text": "Hyprland", "color": "#58B9FF", "category": "Tools" },
+  { "text": "Waybar", "color": "#A6E3A1", "category": "Tools" },
+  { "text": "Arch Linux", "color": "#1793D1", "category": "Cloud & DevOps" }
+]
