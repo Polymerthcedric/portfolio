@@ -23,6 +23,12 @@ const LINKS = [
     description: '@Polymerthcedric',
   },
   {
+    label: 'GitHub',
+    href: 'https://github.com/fidelcedric',
+    icon: GithubIcon,
+    description: '@fidelcedric',
+  },
+  {
     label: 'LinkedIn',
     href: 'https://www.linkedin.com/in/fidel-odoyo',
     icon: LinkedinIcon,
@@ -101,18 +107,20 @@ export default function ContactSection() {
 
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
-              href="mailto:fidelcedricodoyo@gmail.com"
+              href="mailto:fidelcedricodoyo@gmail.com?subject=Job Opportunity&body=Hi Fidel, I came across your portfolio and would like to discuss a role."
               className="btn-primary"
             >
               <Mail size={16} />
               Send Email
             </a>
             <a
-              href="mailto:fidelcedricodoyo@gmail.com?subject=Job Opportunity&body=Hi Fidel, I came across your portfolio and would like to discuss a role."
-              className="btn-primary"
+              href="/portfolio/Fidel_Cedric_Odoyo_Resume.pdf"
+              className="btn-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Mail size={16} />
-              Send Email
+              <FileText size={16} />
+              Resume
             </a>
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}

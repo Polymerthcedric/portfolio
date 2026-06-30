@@ -80,7 +80,18 @@ export default function HeroSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-xl bg-cSurface/50 border border-cBorder/30 text-cMuted hover:text-cBody hover:border-cAccent/30 transition-all duration-200"
-            aria-label="GitHub"
+            aria-label="GitHub Polymerthcedric"
+            title="@Polymerthcedric"
+          >
+            <GithubIcon />
+          </a>
+          <a
+            href="https://github.com/fidelcedric"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 rounded-xl bg-cSurface/50 border border-cBorder/30 text-cMuted hover:text-cBody hover:border-cAccent/30 transition-all duration-200"
+            aria-label="GitHub fidelcedric"
+            title="@fidelcedric"
           >
             <GithubIcon />
           </a>
