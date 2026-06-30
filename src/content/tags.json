@@ -16,5 +16,7 @@
   { "text": "Waybar", "color": "#A6E3A1", "category": "Tools" },
   { "text": "Arch Linux", "color": "#1793D1", "category": "Cloud & DevOps" },
   { "text": "HTML/CSS", "color": "#E34F26", "category": "Design" },
-  { "text": "Responsive Design", "color": "#61DAFB", "category": "Design" }
+  { "text": "Responsive Design", "color": "#61DAFB", "category": "Design" },
+  { "text": "C", "color": "#555555", "category": "Languages" },
+  { "text": "WebAssembly", "color": "#654FF0", "category": "Languages" }
 ]

@@ -12,14 +12,14 @@
   },
   "2": {
     "title": "ArtVision",
-    "subtitle": "Full-stack digital asset management",
-    "problem": "Managing and showcasing architectural visuals and digital assets lacks a centralized platform with proper hosting, containerization, and uptime guarantees.",
-    "approach": "Developed a full-stack web application integrating architectural visuals and digital asset management. Containerized the application with Docker, deployed on cloud infrastructure, and managed the hosting environment to ensure continuous uptime.",
-    "result": "A fully containerized, cloud-deployed web application serving architectural visuals with automated deployment and monitored uptime.",
-    "metrics": "Docker containerization · Cloud deployment · Full-stack architecture · Uptime monitoring",
-    "tags": ["Python", "Node.js", "Docker", "Linux", "Git"],
-    "code": "https://github.com/Polymerthcedric",
-    "demo": ""
+    "subtitle": "Contemporary art gallery with C/WebAssembly image filters",
+    "problem": "Contemporary art websites often rely on heavy frameworks or template-based designs that lack interactivity, performance optimization, and unique features. Visitors expect fast load times, responsive galleries, and engaging ways to explore artwork.",
+    "approach": "Built a zero-dependency static site with semantic HTML, clean CSS variables, and vanilla JavaScript. Integrated C image processing functions compiled to WebAssembly for real-time client-side image filters (grayscale, sepia, invert) inside a lightbox viewer. Converted all images to WebP, added lazy loading, Intersection Observer animations, JSON-LD structured data, and responsive breakpoints from 320px to 4K.",
+    "result": "A fully responsive art gallery website with interactive WASM-powered image filters, SEO schema markup, sub-second load times, and a clean codebase. Deployed on GitHub Pages at fidelcedric.github.io/artvision.",
+    "metrics": "C → WASM · WebP images · JSON-LD schema · Responsive (320px–4K) · Zero JS frameworks",
+    "tags": ["HTML/CSS", "JavaScript", "C", "WebAssembly", "Responsive Design", "Linux", "Git"],
+    "code": "https://github.com/fidelcedric/artvision",
+    "demo": "https://fidelcedric.github.io/artvision/"
   },
   "3": {
     "title": "Medimart",
