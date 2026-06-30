@@ -1,14 +1,14 @@
 {
   "1": {
-    "title": "Fintech Application Prototype",
-    "subtitle": "Multi-currency financial application",
+    "title": "BankUi",
+    "subtitle": "High-fidelity mobile banking demo",
     "problem": "Digital financial tools in East Africa rarely support real-time multi-currency operations or seamless peer-to-peer transfers in a single interface. Users juggle multiple apps for KES, USD, and crypto without unified balance visibility.",
-    "approach": "Designed and built a multi-currency financial application featuring real-time balance conversions and seamless peer-to-peer fund transfers. Optimized Python back-end logic for secure financial calculations and streamlined the mobile/web UI for dynamic responsiveness.",
-    "result": "A working prototype demonstrating real-time currency conversion, P2P transfer flows, and a responsive interface — all with secure back-end financial calculations.",
-    "metrics": "Python back-end · Multi-currency (KES/USD/BTC) · P2P transfers · Responsive UI",
-    "tags": ["Python", "Node.js", "Linux", "Git"],
-    "code": "https://github.com/Polymerthcedric",
-    "demo": ""
+    "approach": "Built a high-fidelity mobile banking prototype with Next.js 16 and React 19 featuring real-time balance conversions, multi-currency support, M-Pesa simulation, and FaceID authentication.",
+    "result": "A working prototype deployed on Vercel demonstrating real-time currency conversion, P2P transfer flows, and a responsive mobile-first interface.",
+    "metrics": "Next.js 16 · React 19 · Multi-currency (KES/USD/BTC) · P2P transfers · FaceID · M-Pesa simulation",
+    "tags": ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"],
+    "code": "https://github.com/Polymerthcedric/bankui",
+    "demo": "https://bankui-xi.vercel.app"
   },
   "2": {
     "title": "ArtVision",
@@ -28,7 +28,7 @@
     "approach": "Built a full-stack e-commerce platform with React 19 frontend and Flask REST backend. Implemented M-Pesa STK Push integration for mobile payments, JWT-based user authentication, product CRUD with image upload, an AI chatbot for product discovery, and a dark mode toggle persisted across sessions via React Context.",
     "result": "A functional medical supplies marketplace with real M-Pesa payment flows, user accounts, and AI-assisted browsing. Deployed on GitHub Pages with Flask backend on PythonAnywhere.",
     "metrics": "M-Pesa STK Push \u00b7 JWT auth \u00b7 Product CRUD \u00b7 AI chatbot \u00b7 Dark mode \u00b7 Responsive",
-    "tags": ["JavaScript", "Python", "Node.js", "Git"],
+    "tags": ["React", "JavaScript", "Python", "Flask", "Django REST", "M-Pesa", "AI", "Node.js"],
     "code": "https://github.com/Polymerthcedric/Medimart",
     "demo": "https://Polymerthcedric.github.io/Medimart"
   },
@@ -39,7 +39,7 @@
     "approach": "Created a bare git repository tracking 233+ configuration files across Hyprland WM, Waybar, Kitty terminal, Rofi launcher, Neovim (LazyVim), Starship prompt, Tmux, Zsh, GTK/QT theming, and Catppuccin Mocha color scheme. Built a custom `ricesync` CLI script for track/commit/push/pull workflows.",
     "result": "A fully reproducible Arch Linux rice that can be deployed on any Arch machine in minutes with consistent Catppuccin Mocha theming across 15+ applications.",
     "metrics": "233 tracked files \u00b7 15+ apps themed \u00b7 Custom ricesync CLI \u00b7 Catppuccin Mocha theme",
-    "tags": ["Linux", "Neovim", "Git"],
+    "tags": ["Linux", "Neovim", "Hyprland", "Waybar", "Kitty", "Zsh", "Git"],
     "code": "https://github.com/Polymerthcedric/dotfiles",
     "demo": ""
   },
