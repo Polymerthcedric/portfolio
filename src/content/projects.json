@@ -53,5 +53,49 @@
     "tags": ["HTML/CSS", "JavaScript", "Tailwind CSS", "Responsive Design"],
     "code": "https://github.com/fidelcedric/sawapro-landing-page",
     "demo": "https://fidelcedric.github.io/sawapro-landing-page/"
+  },
+  "6": {
+    "title": "DevSecOps Starter",
+    "subtitle": "License-gated Next.js boilerplate with Paddle checkout",
+    "problem": "Most Next.js boilerplates ship insecure by default — no rate limiting, weak auth, no RBAC — and trust free-tier infrastructure blindly, risking the classic 'death spiral' of surprise overage bills. Small devs and studios needed a defensible, revenue-ready starter they could license and deploy in a day.",
+    "approach": "Built a hyper-constrained Next.js starter with Upstash-backed hard rate limiting, edge RBAC, and PBKDF2 auth. Wired a full commercial flow: Paddle sandbox checkout (Environment.set + Initialize v2), a webhook that mints a license key on transaction.completed, a /success page that gates the private repo download behind that key, and a GitHub Actions deploy to Vercel.",
+    "result": "A sold-online product: buyers pay via Paddle card checkout, receive a lifetime license key, and download the full starter tarball through a license-gated API. Verified end-to-end with a real sandbox payment.",
+    "metrics": "Paddle Checkout · Rate limiting (Upstash) · Edge RBAC · PBKDF2 auth · License-gated download · CI/CD",
+    "tags": ["Next.js", "TypeScript", "Paddle", "Supabase", "Upstash", "RBAC", "Vercel"],
+    "code": "https://github.com/Polymerthcedric/nextjs-devsecops-starter",
+    "demo": "https://devsecops-starter.vercel.app"
+  },
+  "7": {
+    "title": "JSON to Zustand",
+    "subtitle": "Free dev tool — generate a Zustand store from JSON",
+    "problem": "Setting up a Zustand store by hand is repetitive boilerplate: defining types, actions, and state slices from scratch. There was no quick, free way to generate a typed Zustand store directly from an existing JSON shape.",
+    "approach": "Built a client-side Vite + React tool that parses pasted JSON, infers its shape, and generates a fully typed Zustand store with actions — no backend, instant, works offline. Deployed to Vercel and wired as a top-of-funnel tool.",
+    "result": "A free live tool at json-to-zustand.vercel.app that turns JSON into a working Zustand store in one click, funneling dev traffic toward the DevSecOps Starter product.",
+    "metrics": "Vite · React · TypeScript · Zustand codegen · Zero backend · Vercel",
+    "tags": ["React", "TypeScript", "Vite", "Zustand", "Tailwind CSS"],
+    "code": "https://github.com/Polymerthcedric/json-zustand-generator",
+    "demo": "https://json-to-zustand.vercel.app"
+  },
+  "8": {
+    "title": "Multi-Agent Trading",
+    "subtitle": "Autonomous trading system with MCTS look-ahead search",
+    "problem": "Trading agents that react only to price moves miss compounding decisions. They needed planning — look-ahead search over possible market states — plus realistic accounting of transaction costs instead of idealized fills.",
+    "approach": "Built a multi-agent trading system where agents coordinate via a shared state, using MCTS look-ahead search to evaluate candidate actions and realistic transaction cost models to penalize overtrading.",
+    "result": "An autonomous trading framework that plans several moves ahead and accounts for real frictions, available as an open-source research repo.",
+    "metrics": "Multi-agent · MCTS look-ahead · Transaction cost modeling · TypeScript",
+    "tags": ["TypeScript", "Algorithms", "MCTS", "Trading", "Node.js"],
+    "code": "https://github.com/Polymerthcedric/multi-agent-trading",
+    "demo": ""
+  },
+  "9": {
+    "title": "atélier.com",
+    "subtitle": "Furniture restoration & interior curation studio site",
+    "problem": "Craft businesses like furniture restoration studios need a site that feels artisanal, not templated — conveying craftsmanship while staying fast and lightweight.",
+    "approach": "Built a focused studio site for atélier.com — where craftsmanship meets contemporary design — covering furniture restoration, interior curation, and bespoke furniture making.",
+    "result": "A clean brand-appropriate web presence for the studio, deployed via GitHub Pages.",
+    "metrics": "Furniture restoration · Interior curation · Bespoke making · GitHub Pages",
+    "tags": ["HTML/CSS", "JavaScript", "Responsive Design"],
+    "code": "https://github.com/Polymerthcedric/atelier-com",
+    "demo": "https://Polymerthcedric.github.io/atelier-com"
   }
 }
