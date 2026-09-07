@@ -41,16 +41,17 @@ export default function HeroSection() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-cAccent font-medium mb-4 tracking-wide uppercase text-sm">
-            Software Developer · AWS Certified Cloud Practitioner
+            Software Developer · DevSecOps-minded
           </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-cH1 leading-tight mb-6">
             Hi, I&apos;m{' '}
             <span className="gradient-text">Fidel Cedric Odoyo</span>
           </h1>
           <p className="text-lg sm:text-xl text-cMuted max-w-2xl mx-auto mb-8 leading-relaxed">
-            I build custom websites, cloud infrastructure, and Linux-powered
-            systems with Python, Node.js, and AWS. Transitioning into DevOps
-            and DevSecOps engineering.
+            I ship web products on a boring, defensible stack — TypeScript and
+            Next.js on the front, Node and Postgres on the back, all behind
+            rate limits and containerized deploys. I&apos;m not here to invent
+            complexity, I&apos;m here to ship things that hold up.
           </p>
         </motion.div>
 
