@@ -63,18 +63,18 @@
     "metrics": "Paddle Checkout · Rate limiting (Upstash) · Edge RBAC · PBKDF2 auth · License-gated download · CI/CD",
     "tags": ["Next.js", "TypeScript", "Paddle", "Supabase", "Upstash", "RBAC", "Vercel"],
     "code": "https://github.com/Polymerthcedric/nextjs-devsecops-starter",
-    "demo": "https://devsecops-starter.vercel.app"
+    "demo": "https://starter.fidelco.dev/buy"
   },
   "7": {
     "title": "JSON to Zustand",
     "subtitle": "Free dev tool — generate a Zustand store from JSON",
     "problem": "Setting up a Zustand store by hand is repetitive boilerplate: defining types, actions, and state slices from scratch. There was no quick, free way to generate a typed Zustand store directly from an existing JSON shape.",
     "approach": "Built a client-side Vite + React tool that parses pasted JSON, infers its shape, and generates a fully typed Zustand store with actions — no backend, instant, works offline. Deployed to Vercel and wired as a top-of-funnel tool.",
-    "result": "A free live tool at json-to-zustand.vercel.app that turns JSON into a working Zustand store in one click, funneling dev traffic toward the DevSecOps Starter product.",
+    "result": "A free live tool at tool.fidelco.dev that turns JSON into a working Zustand store in one click, funneling dev traffic toward the DevSecOps Starter product.",
     "metrics": "Vite · React · TypeScript · Zustand codegen · Zero backend · Vercel",
     "tags": ["React", "TypeScript", "Vite", "Zustand", "Tailwind CSS"],
     "code": "https://github.com/Polymerthcedric/json-zustand-generator",
-    "demo": "https://json-to-zustand.vercel.app"
+    "demo": "https://tool.fidelco.dev"
   },
   "8": {
     "title": "Multi-Agent Trading",
