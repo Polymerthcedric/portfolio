@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Fidel Cedric Odoyo — Software Developer & AWS Cloud Practitioner",
+  title: "Fidel Cedric Odoyo — Software Developer · DevSecOps-minded",
   description:
-    "Software developer and AWS Certified Cloud Practitioner specializing in Linux, Python, Node.js, and cloud infrastructure. Building custom tools, websites, and DevOps pipelines.",
+    "I ship web products on a boring, defensible stack — TypeScript and Next.js on the front, Node and Postgres on the back. Building custom tools, websites, and DevOps pipelines.",
   icons: {
     icon: [
       {
-        url: "/portfolio/images/favicon.ico",
-        href: "/portfolio/images/favicon.ico",
+        url: "/images/favicon.ico",
+        href: "/images/favicon.ico",
       },
     ],
   },
