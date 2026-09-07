@@ -114,7 +114,7 @@ export default function ContactSection() {
               Send Email
             </a>
             <a
-              href="/portfolio/Fidel_Cedric_Odoyo_Resume.pdf"
+              href="/Fidel_Cedric_Odoyo_Resume.pdf"
               className="btn-secondary"
               target="_blank"
               rel="noopener noreferrer"
