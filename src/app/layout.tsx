@@ -6,16 +6,10 @@ export const metadata: Metadata = {
   description:
     "I ship web products on a boring, defensible stack — TypeScript and Next.js on the front, Node and Postgres on the back. Building custom tools, websites, and DevOps pipelines.",
   icons: {
-    icon: [
-      {
-        url: "/images/favicon.svg",
-        type: "image/svg+xml",
-      },
-      {
-        url: "/images/favicon.ico",
-        sizes: "any",
-      },
-    ],
+    icon: {
+      url: "/images/favicon.svg",
+      type: "image/svg+xml",
+    },
   },
   other: {
     "google-site-verification": "mht0HAr0s0Ii8LoYUngHkdtV5dnl3GLRd8PToaj0tF4",
