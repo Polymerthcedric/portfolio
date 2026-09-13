@@ -40,7 +40,7 @@
     "result": "A fully reproducible Arch Linux rice that can be deployed on any Arch machine in minutes with consistent Catppuccin Mocha theming across 15+ applications.",
     "metrics": "233 tracked files \u00b7 15+ apps themed \u00b7 Custom ricesync CLI \u00b7 Catppuccin Mocha theme",
     "tags": ["Linux", "Neovim", "Hyprland", "Waybar", "Kitty", "Zsh", "Git"],
-    "code": "https://github.com/Polymerthcedric/dotfiles",
+    "code": "",
     "demo": ""
   },
   "5": {
@@ -62,7 +62,7 @@
     "result": "A sold-online product: buyers pay via Paddle card checkout, receive a lifetime license key, and download the full starter tarball through a license-gated API. Verified end-to-end with a real sandbox payment.",
     "metrics": "Paddle Checkout · Rate limiting (Upstash) · Edge RBAC · PBKDF2 auth · License-gated download · CI/CD",
     "tags": ["Next.js", "TypeScript", "Paddle", "Supabase", "Upstash", "RBAC", "Vercel"],
-    "code": "https://github.com/Polymerthcedric/nextjs-devsecops-starter",
+    "code": "",
     "demo": "https://starter.fidelco.dev/buy"
   },
   "7": {
