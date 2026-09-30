@@ -58,7 +58,7 @@ export default function ContactSection() {
       <div className="max-w-4xl mx-auto">
         <h2 className="section-heading">
           <span className="text-cAccent font-mono text-base font-normal mr-3">
-            05.
+            06.
           </span>
           Contact
         </h2>
