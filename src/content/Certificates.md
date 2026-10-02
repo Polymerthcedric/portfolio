@@ -1,9 +1,9 @@
 # Certifications
 
-## AWS Certified Cloud Practitioner
+## AWS Cloud Practitioner Essentials
 
-Validates foundational cloud knowledge with AWS services, architecture, security, and billing.
+Completion certificate for foundational AWS training on core services, architecture, security, and billing. Completed September 2026.
 
-## ALX Pathways Practitioner
+## ALX Pathways
 
-Professional development certification in software engineering and career readiness.
+Certificate of Achievement for graduating from the ALX Pathways software engineering program. Issued June 2026.
