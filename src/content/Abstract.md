@@ -8,6 +8,6 @@ Software developer who ships full-stack web products — TypeScript, React, Next
 
 **Previously:** Operational stewardship at Mirror of Hope CBO, where I managed logistics, trained staff, and supported service delivery.
 
-**The honest framing:** I hold a foundational AWS certification and I'm deepening into DevSecOps practice by shipping real things — rate limiting, edge auth, secure defaults — rather than chasing certifications alone. My default stack is deliberately boring: it has to survive contact with production.
+**The honest framing:** I've completed the AWS Cloud Practitioner Essentials course and I'm deepening into DevSecOps practice by shipping real things — rate limiting, edge auth, secure defaults — rather than chasing certifications alone. My default stack is deliberately boring: it has to survive contact with production.
 
 **Outside work:** I maintain an Arch Linux rice with Hyprland, Neovim, and Waybar — all consistently themed with Catppuccin Mocha. Terminal-centric workflows are my default. I use opencode (this tool) to shape and ship the work involved.
