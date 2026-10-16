@@ -130,13 +130,13 @@
     "problem": "I wanted to explore whether look-ahead search and several specialized agents could work together in a trading simulation.",
     "approach": "Built a Python prototype with MCTS search, risk checks, transaction-cost estimates, and paper-trading support.",
     "result": "This is research code, not evidence of a profitable strategy. The repository includes tests and out-of-sample evaluation scripts; results depend on the data and assumptions used.",
-    "metrics": "Multi-agent \u00b7 MCTS look-ahead \u00b7 Transaction cost modeling \u00b7 TypeScript",
+    "metrics": "Multi-agent \u00b7 MCTS look-ahead \u00b7 Transaction-cost estimates \u00b7 Python",
     "tags": [
-      "TypeScript",
+      "Python",
       "Algorithms",
       "MCTS",
       "Trading",
-      "Node.js"
+      "Paper trading"
     ],
     "code": "https://github.com/Polymerthcedric/multi-agent-trading",
     "demo": ""
