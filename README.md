@@ -1,10 +1,10 @@
 # Portfolio
 
-My digital footprint. Built with Next.js, Tailwind CSS, and Framer Motion.
+My portfolio site, built with Next.js, Tailwind CSS, and Framer Motion. It brings together my background, skills, and selected projects.
 
-## The Stance
-A portfolio shouldn't be a resume; it should be a manifesto. This is where I document my leverage. The stack is chosen for speed of iteration and flawless presentation. I build digital assets that scale infinitely, and this site is the gateway.
+## Run locally
 
-## Running
-1. `npm install`
-2. `npm run dev`
+```sh
+npm install
+npm run dev
+```

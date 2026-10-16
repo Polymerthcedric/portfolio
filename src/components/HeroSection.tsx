@@ -48,10 +48,9 @@ export default function HeroSection() {
             <span className="gradient-text">Fidel Cedric Odoyo</span>
           </h1>
           <p className="text-lg sm:text-xl text-cMuted max-w-2xl mx-auto mb-8 leading-relaxed">
-            I ship web products on a boring, defensible stack — TypeScript and
-            Next.js on the front, Node and Postgres on the back, all behind
-            rate limits and containerized deploys. I&apos;m not here to invent
-            complexity, I&apos;m here to ship things that hold up.
+            I build web apps and developer tools with TypeScript, React,
+            Next.js, and Node. I like a clear scope, a working release, and
+            knowing what the system does when something goes wrong.
           </p>
         </motion.div>
 
