@@ -81,19 +81,19 @@ export default function ProjectsSection() {
                 <div className="space-y-3 text-cBody/80 text-sm leading-relaxed">
                   <div>
                     <span className="text-cAccent font-semibold text-xs uppercase tracking-wider">
-                      Problem
+                      Why I built it
                     </span>
                     <p className="mt-1">{project.problem}</p>
                   </div>
                   <div>
                     <span className="text-cAccent font-semibold text-xs uppercase tracking-wider">
-                      Approach
+                      What I built
                     </span>
                     <p className="mt-1">{project.approach}</p>
                   </div>
                   <div>
                     <span className="text-cAccent font-semibold text-xs uppercase tracking-wider">
-                      Result
+                      Status
                     </span>
                     <p className="mt-1">{project.result}</p>
                   </div>
@@ -102,7 +102,7 @@ export default function ProjectsSection() {
                 {project.metrics && (
                   <div className="mt-5 pt-5 border-t border-cBorder/30">
                     <p className="text-xs text-cMuted uppercase tracking-wider mb-3 font-medium">
-                      Key features
+                      Features
                     </p>
                     <div className="flex flex-wrap gap-2">
                       {project.metrics.split('·').map((m: string) => (

@@ -1,13 +1,13 @@
 # About
 
-Software developer who ships full-stack web products — TypeScript, React, Next.js on the front; Node, Postgres, and Redis-backed APIs on the back. I run a permanent Arch Linux environment, deploy through Vercel with GitHub Actions, and treat "does this hold up under real load" as the test of whether code is done. I've built a paid-product pipeline end to end: checkout, webhook, license minting, and a gated download.
+I build web apps and developer tools with TypeScript, React, and Next.js, backed by Node.js, Postgres, and Redis where they fit. I work from Arch Linux and use Vercel and GitHub Actions for several projects. I care about how a project behaves outside my editor, not just whether it builds. I have also connected checkout, a payment webhook, license creation, and file delivery for a paid product.
 
-**Currently:** Freelance software and systems developer in Nairobi, architecting custom websites, developer tools, and paid digital products.
+**Currently:** Freelance software and systems developer in Nairobi, building websites and developer tools.
 
 **Open source & side projects:** [Polymerthcedric](https://github.com/Polymerthcedric) (main) · [fidelcedric](https://github.com/fidelcedric) (learning & experiments)
 
 **Previously:** Operational stewardship at Mirror of Hope CBO, where I managed logistics, trained staff, and supported service delivery.
 
-**The honest framing:** I've completed the AWS Cloud Practitioner Essentials course and I'm deepening into DevSecOps practice by shipping real things — rate limiting, edge auth, secure defaults — rather than chasing certifications alone. My default stack is deliberately boring: it has to survive contact with production.
+**Where I am:** I completed AWS Cloud Practitioner Essentials and am learning more about cloud security by applying it in my projects. I have worked on rate limiting, authentication, and deployment workflows; I am still building production experience.
 
-**Outside work:** I maintain an Arch Linux rice with Hyprland, Neovim, and Waybar — all consistently themed with Catppuccin Mocha. Terminal-centric workflows are my default. I use opencode (this tool) to shape and ship the work involved.
+**Outside work:** I maintain an Arch Linux desktop with Hyprland, Neovim, and Waybar, using Catppuccin Mocha across the setup. I prefer working in the terminal and use coding assistants as part of my workflow.
