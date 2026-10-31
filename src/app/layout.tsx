@@ -2,22 +2,22 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Fidel Cedric Odoyo — Software Developer · DevSecOps-minded",
+  title: "Fidel Cedric Odoyo — Software Developer",
   description:
-    "I ship web products on a boring, defensible stack — TypeScript and Next.js on the front, Node and Postgres on the back. Building custom tools, websites, and DevOps pipelines.",
+    "I build web apps and developer tools with TypeScript, React, Next.js, and Node. I care about clear scope, working releases, and how software behaves when something goes wrong.",
   openGraph: {
     type: "website",
     url: "https://fidelco.dev/",
     siteName: "fidelco.dev",
-    title: "Fidel Cedric Odoyo — Software Developer · DevSecOps-minded",
+    title: "Fidel Cedric Odoyo — Software Developer",
     description:
-      "I ship web products on a boring, defensible stack — TypeScript and Next.js on the front, Node and Postgres on the back.",
+      "I build web apps and developer tools with TypeScript, React, Next.js, and Node. I care about clear scope and working releases.",
     images: [
       {
         url: "https://fidelco.dev/og.png",
         width: 1200,
         height: 630,
-        alt: "Fidel Cedric Odoyo — Software Developer · DevSecOps-minded",
+        alt: "Fidel Cedric Odoyo — Software Developer",
       },
     ],
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Fidel Cedric Odoyo — Software Developer",
     description:
-      "I ship web products on TypeScript and Next.js, with a DevSecOps mindset.",
+      "I build web apps and developer tools with TypeScript, React, Next.js, and Node.",
     images: ["https://fidelco.dev/og.png"],
   },
   icons: {
