@@ -21,7 +21,7 @@
     "subtitle": "Contemporary art gallery with C/WebAssembly image filters",
     "problem": "I wanted to make a small art gallery site that lets visitors explore images and try a few filters without a large front-end framework.",
     "approach": "Built a static site with HTML, CSS, and JavaScript. C functions compiled to WebAssembly power grayscale, sepia, and invert filters in the image viewer.",
-    "result": "The gallery is published on GitHub Pages. It includes responsive layouts, lazy-loaded images, and structured data.",
+    "result": "The gallery is a concept demo on GitHub Pages. The artist names and testimonials are sample content. The site includes responsive layouts, lazy-loaded images, and structured data.",
     "metrics": "C \u2192 WASM \u00b7 WebP images \u00b7 JSON-LD schema \u00b7 Responsive (320px\u20134K) \u00b7 Zero JS frameworks",
     "tags": [
       "HTML/CSS",
