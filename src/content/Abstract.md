@@ -1,6 +1,6 @@
 # About
 
-I build web apps and developer tools with TypeScript, React, and Next.js, backed by Node.js, Postgres, and Redis where they fit. I work from Arch Linux and use Vercel and GitHub Actions for several projects. I care about how a project behaves outside my editor, not just whether it builds. I have also connected checkout, a payment webhook, license creation, and file delivery for a paid product.
+I build web apps and developer tools with TypeScript, React, and Next.js, backed by Node.js, Postgres, and Redis where they fit. I work from Arch Linux and use Vercel and GitHub Actions for several projects. I care about how a project behaves outside my editor, not just whether it builds. I also wired a Paddle Sandbox checkout, a signed webhook, demo license creation, and a license-checked download route into an open-source Next.js starter.
 
 **Currently:** Freelance software and systems developer in Nairobi, building websites and developer tools.
 

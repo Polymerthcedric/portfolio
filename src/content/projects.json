@@ -90,11 +90,11 @@
   },
   "6": {
     "title": "DevSecOps Starter",
-    "subtitle": "License-gated Next.js boilerplate with Paddle checkout",
+    "subtitle": "Open-source Next.js reference architecture with Paddle Sandbox checkout",
     "problem": "I wanted a Next.js starting point with rate limiting, session checks, security headers, and deployment examples already connected.",
-    "approach": "Built a username/password demo with PBKDF2 hashing, signed sessions, Upstash rate limiting, Supabase user storage, CSRF checks, and a one-time Paddle checkout for the starter license.",
-    "result": "The source includes a demo flow and Paddle checkout code. Rate limiting can reduce work on downstream routes, but it is not a spend cap or DDoS protection. The source includes a license-checked download route.",
-    "metrics": "Paddle Checkout \u00b7 Rate limiting (Upstash) \u00b7 Proxy role checks \u00b7 PBKDF2 auth \u00b7 License-gated download \u00b7 CI/CD",
+    "approach": "Built the auth and request-check layers with PBKDF2 hashing, signed sessions, Upstash rate limiting, and Supabase user storage. Added a Paddle Sandbox checkout with a signed webhook that issues a demo license, then published the whole thing as open source.",
+    "result": "The live demo lets visitors test checkout with Paddle's test card and read the code behind it on GitHub. Rate limiting can reduce work on downstream routes, but it is not a spend cap or DDoS protection.",
+    "metrics": "Paddle Sandbox \u00b7 Signed webhook \u00b7 Rate limiting (Upstash) \u00b7 Proxy role checks \u00b7 PBKDF2 auth \u00b7 Open source",
     "tags": [
       "Next.js",
       "TypeScript",
@@ -102,10 +102,11 @@
       "Supabase",
       "Upstash",
       "RBAC",
-      "Vercel"
+      "Vercel",
+      "Open Source"
     ],
-    "code": "",
-    "demo": "https://starter.fidelco.dev/buy"
+    "code": "https://github.com/Polymerthcedric/nextjs-devsecops-starter",
+    "demo": "https://starter.fidelco.dev"
   },
   "7": {
     "title": "JSON to Zustand",
