@@ -55,11 +55,11 @@
   },
   "4": {
     "title": "Dotfiles",
-    "subtitle": "My Arch Linux desktop setup",
-    "problem": "I wanted to keep my desktop and development settings in one place so I can reuse and change them over time.",
-    "approach": "The repository includes settings for Hyprland, Waybar, Kitty, Neovim, Starship, Tmux, Zsh, and Catppuccin Mocha Blue desktop themes. I run Omarchy with OpenCode for most of my work.",
-    "result": "These are my personal configuration files. Review them and adapt anything you want before using them on another machine.",
-    "metrics": "Omarchy \u00b7 Hyprland \u00b7 Catppuccin Mocha Blue \u00b7 OpenCode \u00b7 LazyVim",
+    "subtitle": "My old Arch Linux rice",
+    "problem": "I wanted to keep my Arch desktop settings in one place so I could reuse and change them over time.",
+    "approach": "The repository holds settings for Hyprland, Waybar, Kitty, Neovim (LazyVim), Starship, Tmux, Zsh, and Catppuccin Mocha Blue. I built it before I moved to Omarchy 4.5.",
+    "result": "These are my personal configuration files from that Arch setup. The repository is a record, not an installer. Review the files and adapt anything you want before using them on another machine.",
+    "metrics": "Arch Linux \u00b7 Hyprland \u00b7 Catppuccin Mocha Blue \u00b7 LazyVim \u00b7 Waybar",
     "tags": [
       "Linux",
       "Neovim",
