@@ -6,7 +6,6 @@
 
 - Build and deploy custom websites and developer tools using TypeScript, React, Next.js, and Node.js
 - Design deployment pipelines with Vercel and GitHub Actions for personal and client projects — including an open-source Next.js starter with a Paddle Sandbox checkout, signed webhook, and demo license delivery
-- Configure multi-boot Linux server and desktop installations, optimizing bootloaders (GRUB) and custom shell configurations for advanced performance
 
 ## Steward — Mirror of Hope CBO
 
