@@ -96,9 +96,9 @@ export default function SkillsSection() {
         <div className="mt-8 p-6 glass-card border-dashed border-cBorder/40">
           <p className="text-sm text-cMuted leading-relaxed">
             <span className="font-semibold text-cBody">Currently learning:</span>{' '}
-            hardening real live traffic — I&apos;m shipping things people pay
-            money for and watching what breaks. That&apos;s where the actual
-            seniority comes from, not from the list above.
+            hardening live traffic — I test rate limiting, signed webhooks,
+            and session checks in public demos and watch what breaks. That is
+            practice, not a claim of production scale.
           </p>
         </div>
       </div>
