@@ -130,8 +130,8 @@
     "subtitle": "Trading-strategy research prototype",
     "problem": "I wanted to explore whether look-ahead search and several specialized agents could work together in a trading simulation.",
     "approach": "Built a Python prototype with MCTS search, risk checks, transaction-cost estimates, and paper-trading support.",
-    "result": "This is research code, not evidence of a profitable strategy. The repository includes tests and out-of-sample evaluation scripts; results depend on the data and assumptions used.",
-    "metrics": "Multi-agent \u00b7 MCTS look-ahead \u00b7 Transaction-cost estimates \u00b7 Python",
+    "result": "This is an offline research prototype, not evidence of a profitable strategy. Its Streamlit app is a paper-trading dashboard with simulated orders and a virtual balance. It places no live orders. Synthetic demo data is not market evidence.",
+    "metrics": "Multi-agent \u00b7 MCTS look-ahead \u00b7 Transaction-cost estimates \u00b7 Python \u00b7 Paper-trading dashboard",
     "tags": [
       "Python",
       "Algorithms",
@@ -140,7 +140,7 @@
       "Paper trading"
     ],
     "code": "https://github.com/Polymerthcedric/multi-agent-trading",
-    "demo": ""
+    "demo": "https://multi-agent-trading-epvurxxuzcdm3j3opza3tu.streamlit.app/"
   },
   "9": {
     "title": "at\u00e9lier.com",
