@@ -4,9 +4,8 @@
 
 *2025 — Present · Nairobi, Kenya*
 
-- Architect and deploy custom websites and tools using Python and Node.js environments
-- Configure multi-boot Linux server and desktop installations, optimizing bootloaders (GRUB) and custom shell configurations for advanced performance
-- Design cloud-centric deployment blueprints leveraging AWS infrastructure for personal and client projects
+- Build and deploy custom websites and developer tools using TypeScript, React, Next.js, and Node.js
+- Design deployment pipelines with Vercel and GitHub Actions for personal and client projects — including an open-source Next.js starter with a Paddle Sandbox checkout, signed webhook, and demo license delivery
 
 ## Steward — Mirror of Hope CBO
 

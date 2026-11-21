@@ -58,7 +58,7 @@ export default function ContactSection() {
       <div className="max-w-4xl mx-auto">
         <h2 className="section-heading">
           <span className="text-cAccent font-mono text-base font-normal mr-3">
-            05.
+            06.
           </span>
           Contact
         </h2>
@@ -114,7 +114,7 @@ export default function ContactSection() {
               Send Email
             </a>
             <a
-              href="/portfolio/Fidel_Cedric_Odoyo_Resume.pdf"
+              href="/Fidel_Cedric_Odoyo_Resume.pdf"
               className="btn-secondary"
               target="_blank"
               rel="noopener noreferrer"
