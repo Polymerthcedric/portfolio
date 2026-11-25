@@ -127,15 +127,14 @@
   },
   "8": {
     "title": "Multi-Agent Trading",
-    "subtitle": "Trading-strategy research prototype",
-    "problem": "I wanted to explore whether look-ahead search and several specialized agents could work together in a trading simulation.",
-    "approach": "Built a Python prototype with MCTS search, risk checks, transaction-cost estimates, and paper-trading support.",
-    "result": "This is an offline research prototype, not evidence of a profitable strategy. Its Streamlit app is a paper-trading dashboard with simulated orders and a virtual balance. It places no live orders. Synthetic demo data is not market evidence.",
-    "metrics": "Multi-agent \u00b7 MCTS look-ahead \u00b7 Transaction-cost estimates \u00b7 Python \u00b7 Paper-trading dashboard",
+    "subtitle": "Paper-only multi-agent strategy research",
+    "problem": "I wanted a way to test specialized market agents without mistaking a simulator's heuristic score for evidence of performance.",
+    "approach": "Added deterministic replay of the market-only prediction, context, volatility, debate, and consensus path, with chronological walk-forward folds, next-open fills, transaction costs, and buy-and-hold/cash comparisons. Historical sentiment is excluded unless timestamped history is available.",
+    "result": "This is an offline research prototype, not evidence of a profitable strategy. Its Streamlit app still shows simulated orders and a virtual balance; it places no live orders. Synthetic demo data is not market evidence.",
+    "metrics": "Paper-only \u00b7 Walk-forward OOS \u00b7 Next-open fills \u00b7 Transaction costs \u00b7 Python",
     "tags": [
       "Python",
       "Algorithms",
-      "MCTS",
       "Trading",
       "Paper trading"
     ],
@@ -156,5 +155,23 @@
     ],
     "code": "https://github.com/Polymerthcedric/atelier-com",
     "demo": "https://Polymerthcedric.github.io/atelier-com"
+  },
+  "10": {
+    "title": "Guardrail",
+    "subtitle": "Local-first focus-time blocker for Android 8+ and Linux",
+    "problem": "I wanted a practical focus tool that lets people choose the apps and sites they want to limit, rather than relying on one fixed device-specific list.",
+    "approach": "The Android app supports installed-app selection, per-app schedules and daily limits, an on-device accessibility gate, optional DNS filtering, and recovery access to essential system apps. Linux uses scheduled DNS and browser policies.",
+    "result": "Designed for Android 8.0+ (API 26) without Realme-only dependencies; OEM permission and background-service behavior can vary. This is a personal self-commitment tool, not tamper-proof security software, and it stores usage settings locally.",
+    "metrics": "Android 8+ \u00b7 user-selected apps \u00b7 per-app schedules \u00b7 optional DNS VPN \u00b7 Linux \u00b7 local-first",
+    "tags": [
+      "Linux",
+      "Android",
+      "Kotlin",
+      "DNS",
+      "systemd",
+      "Privacy"
+    ],
+    "code": "https://github.com/Polymerthcedric/guardrail",
+    "demo": ""
   }
 }
