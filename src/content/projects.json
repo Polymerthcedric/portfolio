@@ -129,16 +129,16 @@
     "title": "Multi-Agent Trading",
     "subtitle": "Paper-only multi-agent strategy research",
     "problem": "I wanted a way to test specialized market agents without mistaking a simulator's heuristic score for evidence of performance.",
-    "approach": "Added deterministic replay of the market-only prediction, context, volatility, debate, and consensus path, with chronological walk-forward folds, next-open fills, transaction costs, and buy-and-hold/cash comparisons. Historical sentiment is excluded unless timestamped history is available.",
-    "result": "This is an offline research prototype, not evidence of a profitable strategy. Its Streamlit app still shows simulated orders and a virtual balance; it places no live orders. Synthetic demo data is not market evidence.",
-    "metrics": "Paper-only \u00b7 Walk-forward OOS \u00b7 Next-open fills \u00b7 Transaction costs \u00b7 Python",
+    "approach": "Unified paper trading and walk-forward research behind one market-only policy. It applies consensus gates, ATR stop-distance sizing, loss and exposure caps, and protective exits. OOS replay fills at the next bar's open with modeled costs; paper mode uses current quotes.",
+    "result": "In 15 chronological OOS folds on adjusted daily Yahoo Finance data (SPY, QQQ, and AAPL; 2021–2026), mean Sharpe trailed buy-and-hold for all three. No edge is demonstrated; this remains paper-only and places no live orders. Synthetic data is mechanics-only.",
+    "metrics": "Paper-only \u00b7 Shared policy \u00b7 ATR risk sizing \u00b7 15 chronological OOS folds \u00b7 Costs modeled \u00b7 Python",
     "tags": [
       "Python",
       "Algorithms",
       "Trading",
       "Paper trading"
     ],
-    "code": "https://github.com/Polymerthcedric/multi-agent-trading",
+    "code": "https://github.com/Polymerthcedric/multi-agent-trading/tree/copilot/reengineer-multi-agent-policy",
     "demo": "https://multi-agent-trading-epvurxxuzcdm3j3opza3tu.streamlit.app/"
   },
   "9": {
